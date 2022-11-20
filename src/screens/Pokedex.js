@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { getPokemonsApi, getPokemonDetailsByUrlApi } from '../api/pokemon';
 import PokemonList from '../components/PokemonList';
 
+
 export default function Pokedex() {
   const [pokemons, setPokemons] = useState([]);
   const [nextUrl, setNextUrl] = useState(null);
